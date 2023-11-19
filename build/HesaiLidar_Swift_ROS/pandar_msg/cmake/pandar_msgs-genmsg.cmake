@@ -29,7 +29,7 @@ add_custom_target(_pandar_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg" NAME_WE)
 add_custom_target(_pandar_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pandar_msgs" "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg" "std_msgs/Header:pandar_msgs/PandarPacket"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pandar_msgs" "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg" "pandar_msgs/PandarPacket:std_msgs/Header"
 )
 
 #
@@ -53,7 +53,7 @@ _generate_msg_cpp(pandar_msgs
 _generate_msg_cpp(pandar_msgs
   "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg"
+  "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pandar_msgs
 )
 
@@ -102,7 +102,7 @@ _generate_msg_eus(pandar_msgs
 _generate_msg_eus(pandar_msgs
   "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg"
+  "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pandar_msgs
 )
 
@@ -151,7 +151,7 @@ _generate_msg_lisp(pandar_msgs
 _generate_msg_lisp(pandar_msgs
   "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg"
+  "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pandar_msgs
 )
 
@@ -200,7 +200,7 @@ _generate_msg_nodejs(pandar_msgs
 _generate_msg_nodejs(pandar_msgs
   "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg"
+  "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pandar_msgs
 )
 
@@ -249,7 +249,7 @@ _generate_msg_py(pandar_msgs
 _generate_msg_py(pandar_msgs
   "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg"
+  "/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pandar_msgs
 )
 

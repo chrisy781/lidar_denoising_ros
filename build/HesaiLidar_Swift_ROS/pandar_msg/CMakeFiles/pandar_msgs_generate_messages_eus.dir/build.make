@@ -71,8 +71,8 @@ HesaiLidar_Swift_ROS/pandar_msg/CMakeFiles/pandar_msgs_generate_messages_eus: /h
 
 /home/christiaan/rosworkspace/devel/share/roseus/ros/pandar_msgs/msg/PandarScan.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/christiaan/rosworkspace/devel/share/roseus/ros/pandar_msgs/msg/PandarScan.l: /home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg
-/home/christiaan/rosworkspace/devel/share/roseus/ros/pandar_msgs/msg/PandarScan.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/christiaan/rosworkspace/devel/share/roseus/ros/pandar_msgs/msg/PandarScan.l: /home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarPacket.msg
+/home/christiaan/rosworkspace/devel/share/roseus/ros/pandar_msgs/msg/PandarScan.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/christiaan/rosworkspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from pandar_msgs/PandarScan.msg"
 	cd /home/christiaan/rosworkspace/build/HesaiLidar_Swift_ROS/pandar_msg && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg/PandarScan.msg -Ipandar_msgs:/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_msg/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p pandar_msgs -o /home/christiaan/rosworkspace/devel/share/roseus/ros/pandar_msgs/msg
 

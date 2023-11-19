@@ -5,4 +5,4 @@ Description: Description of pandar_pointcloud
 Version: 1.0.0
 Cflags: -I/home/christiaan/rosworkspace/devel/include -I/home/christiaan/rosworkspace/src/HesaiLidar_Swift_ROS/pandar_pointcloud/include
 Libs: -L${prefix}/lib -lpandar_rawdata
-Requires: angles diagnostic_updater dynamic_reconfigure nodelet pandar_msgs pcl_ros roscpp roslib sensor_msgs tf
+Requires: angles diagnostic_updater dynamic_reconfigure nodelet pandar_msgs pcl_ros roscpp roslib sensor_msgs tf rospy sensor_msgs std_msgs
